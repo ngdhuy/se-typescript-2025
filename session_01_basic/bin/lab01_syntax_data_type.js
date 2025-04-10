@@ -1,4 +1,24 @@
 "use strict";
 let isDone = false;
-console.log(isDone);
+console.log(`isDone = ${isDone} - ${typeof (isDone)}`);
+let decimal = 6;
+let hex = 0xf0000d;
+let bin = 0b101010;
+let octal = 0o744;
+console.log(`Decimal = ${decimal} - ${typeof (decimal)}`);
+console.log(`Hex     = ${hex} - ${typeof (hex)}`);
+console.log(`Bin     = ${bin} - ${typeof (bin)}`);
+console.log(`Octal   = ${octal} - ${typeof (octal)}`);
+let big = 100n;
+console.log(`Big int = ${big} - ${typeof (big)}`);
+let double = 0.1 + 0.2;
+console.log(`double  = ${double} - ${typeof (double)}`);
+let color = 'light blue';
+color = 'dark red';
+console.log(`Color   = ${color} - ${typeof (color)}`);
+let fullName = `Mr Buoi`;
+let age = 37;
+let sentence = `Hello, my name is ${fullName}. I'll be ${age + 1} years old next month.`;
+console.log(`Sentence = ${sentence} - ${typeof (sentence)}`);
+console.log(`Sentence = ${sentence}`);
 //# sourceMappingURL=lab01_syntax_data_type.js.map
