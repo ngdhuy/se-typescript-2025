@@ -20,5 +20,4 @@ let fullName = `Mr Buoi`;
 let age = 37;
 let sentence = `Hello, my name is ${fullName}. I'll be ${age + 1} years old next month.`;
 console.log(`Sentence = ${sentence} - ${typeof (sentence)}`);
-console.log(`Sentence = ${sentence}`);
-//# sourceMappingURL=lab01_syntax_data_type.js.map
+//# sourceMappingURL=lab01.syntax.data_type.js.map
